@@ -1,0 +1,172 @@
+@import "elements.less";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End resets */
+
+@normal: 400;
+@default: 1em;
+@color: #222;
+
+.37serif {
+	font-family: 'Crimson Text', serif;
+	font-weight: @normal;
+	font-size: @default;
+	color: @color;
+}
+
+.37sans-serif {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-weight: @normal;
+	font-size: @default;
+	color: @color;
+}
+
+body {
+	.37serif;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+nav {
+	.37sans-serif;
+	font-size: @default - .25; /* 12 / 16 */
+	text-align: right;
+	padding: 10px;
+	margin: 10px 0 20px 0;
+	li {
+		display: inline;
+		padding: 0 10px;
+		&.date {
+			float: left;
+			color: #999;
+		}
+		a {
+			text-decoration: none;
+			color: #369;
+			&:visited {
+				color: #369;
+			}
+			&:hover {
+				color: #6699cc;
+			}
+			span {
+				color: #18afe0;
+				&:hover {
+					color: #369;
+				}
+			}
+		}
+	}
+	
+}
+
+#wrapper {
+	width: 64.0625%; /* 820 / 1280 */
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: @default + 2.625; /* 58 / 16 */
+	font-weight: @normal + 200;
+	margin: 10px 0 20px 0;
+	line-height: 1em;
+	letter-spacing: -2px;
+
+}
+
+h5 {
+	font-size: @default + .25; /* 20 / 16 */
+	font-weight: @normal + 100;
+	margin: 10px 0;
+}
+
+ul {
+	li {
+		display: inline-block;
+	}
+	a.product-box {
+		height: 220px;
+		width: 160px;
+		padding: 20px 10px;
+		margin: 15px 20px 5px 20px;
+		float: left;
+		.gradient(#efefef, #efefef, #fff);
+		border: 1px solid #e8e8e8;
+		.rounded(5px);
+		.drop-shadow(0, 0, 5px, 0.1);
+		text-decoration: none;
+		.37sans-serif;
+	}
+	h3 {
+		color: #369;
+		span {
+		font-size: @default + .375; /* 22 / 16 */
+		font-weight: bold;
+		text-decoration: underline;
+		}
+		sup {
+			color: #999;
+			font-size: @default - .25; /* 12 / 16 */
+			vertical-align: super;
+		}
+	}
+	h4 {
+		font-size: @default - .125; /* 14 / 16 */
+		font-weight: bold;
+		color: #cc0000;
+		margin: 5px 0 10px;
+	}
+	p {
+		color: #222;
+		font-size: @default - .125; /* 14 / 16 */
+		margin: 5px 0 10px;
+	}
+}

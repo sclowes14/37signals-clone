@@ -1,0 +1,330 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"d",
+				"d-i	display: inline;"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"h",
+				"h5	Tag"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"imp",
+				"@import	@import url(${0});"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"wh",
+				"whs-nw	white-space: nowrap;"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"di",
+				"d-ib	display: inline-block;"
+			],
+			[
+				"po",
+				"pos-r	position: relative;"
+			],
+			[
+				"no",
+				"nowrap"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2081,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/styles.less",
+			"settings":
+			{
+				"buffer_size": 2995,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"user ",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Stephen/Documents/Thinkful/37signals/index.html",
+		"/C/Users/Stephen/Documents/Thinkful/37signals/css/styles.less",
+		"/C/Users/Stephen/Dropbox/Public/google-clone/css/styles.less",
+		"/C/Users/Stephen/Dropbox/Public/google-clone/css/styles.css",
+		"/C/Users/Stephen/Dropbox/Public/google-clone/index.html",
+		"/C/Users/Stephen/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Stephen/Dropbox/Public/google-clone/README.md",
+		"/C/Users/Stephen/Documents/playground/old_trafford/styles.css",
+		"/C/Users/Stephen/Documents/playground/old_trafford/index.html",
+		"/C/Users/Stephen/Dropbox/Public/google-clone/styles.css",
+		"/C/Users/Stephen/Dropbox/Public/google-clone/styles.less",
+		"/C/Users/Stephen/Dropbox/Public/index.html",
+		"/C/Users/Stephen/Dropbox/Public/styles.css",
+		"/C/Users/Stephen/AppData/Roaming/Sublime Text 2/Packages/User/open_browser.py",
+		"/C/Users/Stephen/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1925,
+								1925
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 443.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/styles.less",
+					"settings":
+					{
+						"buffer_size": 2995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2995,
+								2995
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true
+}
