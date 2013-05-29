@@ -3,6 +3,15 @@
 	[
 		{
 			"path": "/C/Users/Stephen/Desktop/Thinkful/37signals"
+		},
+		{
+			"path": "js"
+		},
+		{
+			"path": "css"
+		},
+		{
+			"path": "img"
 		}
 	]
 }

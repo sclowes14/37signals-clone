@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"s",
+				"src"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
 				"tex",
 				"text-decoration"
 			],
@@ -68,10 +76,6 @@
 				"background-color"
 			],
 			[
-				"di",
-				"d-ib	display: inline-block;"
-			],
-			[
 				"po",
 				"pos-r	position: relative;"
 			],
@@ -87,7 +91,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2081,
+				"buffer_size": 3341,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,15 +99,26 @@
 			"file": "css/styles.less",
 			"settings":
 			{
-				"buffer_size": 2995,
+				"buffer_size": 3052,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "$(document).ready( function () {\n	$('#bc').hover(\n		function () {\n			$('.hide[data-product=\"basecamp\"]').show();\n			$('#mission').hide();\n		},\n		function () {\n			$('.hide[data-product=\"basecamp\"]').hide();\n			$('#mission').show();\n		}\n		);\n	$('#hr').hover(\n		function () {\n			$('.hide[data-product=\"highrise\"]').show();\n			$('#mission').hide();\n		},\n		function () {\n			$('.hide[data-product=\"highrise\"]').hide();\n			$('#mission').show();\n		}\n		);\n	$('#cf').hover(\n		function () {\n			$('.hide[data-product=\"campfire\"]').show();\n			$('#mission').hide();\n		},\n		function () {\n			$('.hide[data-product=\"campfire\"]').hide();\n			$('#mission').show();\n		}\n		);\n});\n",
+			"file": "js/application.js",
+			"file_size": 1020,
+			"file_write_time": 130142524480000000,
+			"settings":
+			{
+				"buffer_size": 658,
 				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/LESS-build/LESS.sublime-build",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 235.0,
 		"selected_items":
 		[
 			[
@@ -123,7 +138,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 386.0
 	},
 	"console":
 	{
@@ -140,6 +155,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/stclow.CARYNT/Dropbox/37signals-clone/37signals.sublime-workspace",
+		"/C/Users/Stephen/37signals-clone/37signals.sublime-project",
 		"/C/Users/Stephen/Documents/Thinkful/37signals/index.html",
 		"/C/Users/Stephen/Documents/Thinkful/37signals/css/styles.less",
 		"/C/Users/Stephen/Dropbox/Public/google-clone/css/styles.less",
@@ -198,15 +215,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2081,
+						"buffer_size": 3341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1925,
-								1925
+								1036,
+								1036
 							]
 						],
 						"settings":
@@ -216,7 +233,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 443.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -224,7 +241,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -232,20 +249,48 @@
 					"file": "css/styles.less",
 					"settings":
 					{
-						"buffer_size": 2995,
+						"buffer_size": 3052,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2995,
-								2995
+								1447,
+								1447
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/application.js",
+					"settings":
+					{
+						"buffer_size": 658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								658,
+								658
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
@@ -296,6 +341,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
 		"height": 0.0

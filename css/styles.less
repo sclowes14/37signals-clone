@@ -75,6 +75,16 @@ body {
 	line-height: 1.5em;
 }
 
+.hide {
+	display: none;
+	h1 {
+		font-size: @default + 2; /* 48 / 16 */
+	}
+	h5 {
+		font-size: @default + .125; /* 18 / 16 */
+	}
+}
+
 nav {
 	.37sans-serif;
 	font-size: @default - .25; /* 12 / 16 */
@@ -119,7 +129,6 @@ h1 {
 	margin: 10px 0 20px 0;
 	line-height: 1em;
 	letter-spacing: -2px;
-
 }
 
 h5 {
@@ -145,6 +154,11 @@ ul {
 		text-decoration: none;
 		.37sans-serif;
 	}
+
+.product {
+	display: none;
+}
+
 	h3 {
 		color: #369;
 		span {
