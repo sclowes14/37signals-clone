@@ -155,6 +155,9 @@ body {
   text-align: center;
   line-height: 1.5em;
 }
+header {
+  height: 170px;
+}
 .hide {
   display: none;
 }
